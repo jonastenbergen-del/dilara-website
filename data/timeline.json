@@ -1,0 +1,112 @@
+{
+    "events": [
+        {
+            "id": 1,
+            "date": "2025-10-28",
+            "dateDisplay": "28. Oktober 2025",
+            "title_de": "Unser erster Chat",
+            "title_tr": "İlk Mesajımız",
+            "description_de": "Der Tag, an dem alles begann. Unsere erste Nachricht und ich wusste noch nicht, was mich erwartet.",
+            "description_tr": "Her şeyin başladığı gün. İlk mesajımız ve henüz neler beklediğimi bilmiyordum.",
+            "emoji": "💬",
+            "image": null,
+            "highlight": true
+        },
+        {
+            "id": 2,
+            "date": "2026-05-01",
+            "dateDisplay": "Mai 2026",
+            "title_de": "Endlos chatten 🐜💕",
+            "title_tr": "Bitmeyen sohbet 🐜💕",
+            "description_de": "Monatelanges stundenlanges Chatten über Ameisen, Spiele und den Alltag. Jeder Chat hat uns näher gebracht.",
+            "description_tr": "Karıncalar, oyunlar ve günlük yaşam hakkında ayca saatlerce sohbet. Her sohbet bizi daha da yakınlaştırdı.",
+            "emoji": "🐜",
+            "image": null,
+            "highlight": false
+        },
+        {
+            "id": 3,
+            "date": "2026-05-15",
+            "dateDisplay": "Mai 2026",
+            "title_de": "Erster Kuss 💋",
+            "title_tr": "İlk Öpücük 💋",
+            "description_de": "Ein magischer Moment im Mai, an dem die Zeit stehen blieb. Ich wusste sofort – du bist die Eine.",
+            "description_tr": "Mayıs'taki sihirli an. Zaman dondu. Hemen biliyordun – o birisin.",
+            "emoji": "💋",
+            "image": null,
+            "highlight": true
+        },
+        {
+            "id": 4,
+            "date": "2026-06-01",
+            "dateDisplay": "Juni 2026",
+            "title_de": "Erster Video Call 📹",
+            "title_tr": "İlk Video Görüşmesi 📹",
+            "description_de": "Dein Gesicht zum ersten Mal live sehen im Juni – ein Gefühl, das ich nie vergessen werde.",
+            "description_tr": "Haziranda yüzünü ilk kez canlı görmek – asla unutmayacağım bir duygu.",
+            "emoji": "📹",
+            "image": null,
+            "highlight": true
+        },
+        {
+            "id": 5,
+            "date": "2026-06-06",
+            "dateDisplay": "06. Juni 2026",
+            "title_de": "Unser wichtiger Tag 🌟",
+            "title_tr": "Önemli Günümüz 🌟",
+            "description_de": "Ein Datum, das für immer in unsere Erinnerung eingegraben bleibt.",
+            "description_tr": "Her zaman hafızamıza kazınacak bir tarih.",
+            "emoji": "🌟",
+            "image": null,
+            "highlight": true
+        },
+        {
+            "id": 6,
+            "date": "2026-07-01",
+            "dateDisplay": "Juli 2026",
+            "title_de": "Wir planen unsere Zukunft 🌟",
+            "title_tr": "Geleceğimizi Planlıyoruz 🌟",
+            "description_de": "Gemeinsame Träume und Pläne. Irgendwann sind die Kilometer nicht mehr wichtig.",
+            "description_tr": "Birlikte hayaller ve planlar. Bir gün kilometreler önemli olmayacak.",
+            "emoji": "🌟",
+            "image": null,
+            "highlight": false
+        },
+        {
+            "id": 7,
+            "date": "2026-08-01",
+            "dateDisplay": "August 2026",
+            "title_de": "Besuch in Gaziantep? ✈️",
+            "title_tr": "Gaziantep Ziyareti? ✈️",
+            "description_de": "Der Plan reift: Ich komme zu dir nach Gaziantep. Zu deiner Familie – wo du wohnst!",
+            "description_tr": "Plan olgunlaşıyor: Seni Gaziantep'e ziyarete geliyorum. Aileni görmeye – yanında!",
+            "emoji": "✈️",
+            "image": null,
+            "highlight": true
+        },
+        {
+            "id": 8,
+            "date": "2026-09-01",
+            "dateDisplay": "September 2026",
+            "title_de": "Über WhatsApp vorgestellt 🤝",
+            "title_tr": "WhatsApp Tanışması 🤝",
+            "description_de": "Ein wichtiger Moment: Ich habe ihrer Mutter über WhatsApp geschrieben und mich vorgestellt.",
+            "description_tr": "Önemli bir an: Dilara'nın annesine WhatsApp'tan yazdım ve kendimi tanıttım.",
+            "emoji": "🤝",
+            "image": null,
+            "highlight": true
+        },
+        {
+            "id": 9,
+            "date": "2026-07-01",
+            "dateDisplay": "01. Juli 2026",
+            "title_de": "Diese Website für dich 💕",
+            "title_tr": "Senin İçin Bu Web Sitesi 💕",
+            "description_de": "Und jetzt: Diese Website. Jeden Moment, jede Erinnerung, jedes Lachen – alles für dich, Dilara.",
+            "description_tr": "Ve şimdi: Bu web sitesi. Her an, her anı, her kahkaha – senin için, Dilara.",
+            "emoji": "💕",
+            "image": null,
+            "highlight": true
+        }
+    ]
+}

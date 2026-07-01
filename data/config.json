@@ -1,0 +1,177 @@
+{
+    "site": {
+        "title": "Jonas & Dilara",
+        "subtitle": "Unsere Geschichte",
+        "description": "Eine persönliche Website für unsere Liebe",
+        "relationshipStartDate": "2025-10-28",
+        "language": "de"
+    },
+    "languages": {
+        "default": "de",
+        "available": [
+            "de",
+            "tr"
+        ],
+        "labels": {
+            "de": {
+                "startJourney": "Unsere Reise beginnen",
+                "ourStory": "Unsere Geschichte",
+                "memories": "Erinnerungsalbum",
+                "kiMemories": "KI-Geschichten",
+                "whyILoveYou": "Warum ich dich liebe",
+                "ourFuture": "Unsere Zukunft",
+                "surprises": "Überraschungen",
+                "starSky": "Sternenhimmel",
+                "music": "Unsere Musik",
+                "surpriseMe": "Überrasche mich",
+                "navHome": "Home",
+                "navStory": "Geschichte",
+                "navMemories": "Erinnerungen",
+                "navLove": "Liebe",
+                "navFuture": "Zukunft",
+                "navMore": "Mehr",
+                "darkMode": "Dunkelmodus",
+                "lightMode": "Hellmodus",
+                "language": "Sprache",
+                "relationshipDays": "Tage zusammen",
+                "relationshipHours": "Stunden zusammen",
+                "relationshipMinutes": "Minuten zusammen",
+                "firstMessage": "Unsere erste Nachricht",
+                "smostUsedEmoji": "Meistgenutztes Emoji",
+                "longestConversation": "Längstes Gespräch",
+                "activeMonth": "Aktivster Monat",
+                "insiderJoke": "Insider-Witz",
+                "firstILoveYou": "Erstes Ich liebe dich",
+                "travelDreams": "Reiseträume",
+                "projectDreams": "Traumprojekte",
+                "specialDay": "Besonderer Tag",
+                "secretArea": "Geheimer Bereich",
+                "clickHint": "Klicke 7x auf das Herz",
+                "valentinesSpecial": "Valentinsag-Special aktiviert!",
+                "birthdaySpecial": "Geburtstags-Special aktiviert!"
+            },
+            "tr": {
+                "startJourney": "Yolculuğumuz Başlasın",
+                "ourStory": "Hikayemiz",
+                "memories": "Anı Albümü",
+                "kiMemories": "AI Hikayeleri",
+                "whyILoveYou": "Seni neden sevdiğim",
+                "ourFuture": "Geleceğimiz",
+                "surprises": "Sürprizler",
+                "starSky": "Yıldızlı Gökyüzü",
+                "music": "Müziğimiz",
+                "surpriseMe": "Sürpriz yap",
+                "navHome": "Ana Sayfa",
+                "navStory": "Hikaye",
+                "navMemories": "Anılar",
+                "navLove": "Aşk",
+                "navFuture": "Gelecek",
+                "navMore": "Daha",
+                "darkMode": "Karanlık Mod",
+                "lightMode": "Aydınlık Mod",
+                "language": "Dil",
+                "relationshipDays": "birlikte gün",
+                "relationshipHours": "birlikte saat",
+                "relationshipMinutes": "birlikte dakika",
+                "firstMessage": "İlk mesajımız",
+                "smostUsedEmoji": "En çok kullanılan emoji",
+                "longestConversation": "En uzun sohbet",
+                "activeMonth": "En aktif ay",
+                "insiderJoke": "İç şaka",
+                "firstILoveYou": "İlk Seni seviyorum",
+                "travelDreams": "Seyahal hayalleri",
+                "projectDreams": "Proje hayalleri",
+                "specialDay": "Özel gün",
+                "secretArea": "Gizli alan",
+                "clickHint": "Kalbe 7 kez tıkla",
+                "valentinesSpecial": "Sevgililer Günü özel!",
+                "birthdaySpecial": "Doğum Günü özel!"
+            }
+        }
+    },
+    "sections": {
+        "hero": {
+            "enabled": true,
+            "backgroundType": "gradient",
+            "particleCount": 50
+        },
+        "timeline": {
+            "enabled": true,
+            "maxItems": 20
+        },
+        "memories": {
+            "enabled": true,
+            "gridLayout": "masonry"
+        },
+        "chatAnalysis": {
+            "enabled": true,
+            "maxStories": 10
+        },
+        "loveReasons": {
+            "enabled": true,
+            "totalCards": 365
+        },
+        "bucketList": {
+            "enabled": true,
+            "categories": [
+                "reisen",
+                "ziele",
+                "wünsche",
+                "projekte"
+            ]
+        },
+        "surprises": {
+            "enabled": true,
+            "surpriseCount": 8
+        },
+        "starrySky": {
+            "enabled": true,
+            "starCount": 100,
+            "autoNightMode": true,
+            "nightStartHour": 20,
+            "nightEndHour": 6
+        },
+        "music": {
+            "enabled": true,
+            "playlistType": "embedded"
+        },
+        "randomMoment": {
+            "enabled": true
+        }
+    },
+    "design": {
+        "primaryColor": "#E85D7A",
+        "accentColor": "#C9A96E",
+        "darkMode": {
+            "enabled": true,
+            "default": false
+        },
+        "animations": {
+            "enabled": true,
+            "reduceMotion": false,
+            "parallax": true,
+            "particles": true,
+            "microInteractions": true
+        }
+    },
+    "chatData": {
+        "folder": "Telegram daten",
+        "exportFiles": [
+            "messages.html",
+            "messages2.html",
+            "messages3.html",
+            "messages4.html",
+            "messages5.html",
+            "messages6.html",
+            "messages7.html",
+            "messages8.html",
+            "messages9.html",
+            "messages10.html",
+            "messages11.html",
+            "messages12.html"
+        ],
+        "photosFolder": "Telegram daten/photos",
+        "voiceMessagesFolder": "Telegram daten/voice_messages",
+        "videoFolder": "Telegram daten/video_files"
+    }
+}

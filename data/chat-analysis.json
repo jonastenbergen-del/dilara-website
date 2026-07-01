@@ -1,0 +1,101 @@
+{
+    "statistics": {
+        "total_messages": 3776,
+        "total_photos": 426,
+        "total_videos": 135,
+        "total_voice_messages": 137,
+        "total_gifs": 79,
+        "total_gifts": 2,
+        "total_posts": 9,
+        "total_files": 1,
+        "total_shared_links": 50,
+        "total_groups_common": 3,
+        "total_stickers": 89,
+        "first_message_date": "2025-10-28",
+        "last_message_date": "2026-06-28",
+        "most_active_time": "18:00 - 22:00",
+        "most_used_emojis": [
+            {
+                "emoji": "❤️",
+                "count": 234,
+                "label_de": "Liebe",
+                "label_tr": "Aşk"
+            },
+            {
+                "emoji": "😂",
+                "count": 189,
+                "label_de": "Lachen",
+                "label_tr": "Gülme"
+            },
+            {
+                "emoji": "🤣",
+                "count": 145,
+                "label_de": "Totgelachen",
+                "label_tr": "Kulaklarımdan tutarak güldüm"
+            },
+            {
+                "emoji": "💕",
+                "count": 132,
+                "label_de": "Zwei Herzen",
+                "label_tr": "İki kalp"
+            },
+            {
+                "emoji": "🤗",
+                "count": 98,
+                "label_de": "Umarmung",
+                "label_tr": "Sarılmak"
+            }
+        ],
+        "insider_jokes": [
+            {
+                "id": 1,
+                "text_de": "My ants 🐜",
+                "text_tr": "Karıncalarım 🐜",
+                "context_de": "Als du mir von deinen S4 Guard Ants in deinem Farm Account erzählt hast",
+                "context_tr": "Bana çiftlik hesabındaki S4 Guard Ant'larından bahsettiğinde",
+                "emoji": "🐜",
+                "date": "28. Oktober 2025"
+            }
+        ],
+        "travel_plans": [
+            {
+                "id": 1,
+                "plan_de": "Paris zusammen besuchen",
+                "plan_tr": "Birlikte Paris'i ziyaret etmek",
+                "status": "geplant",
+                "emoji": "🗼"
+            },
+            {
+                "id": 2,
+                "plan_de": "Gaziantep besuchen",
+                "plan_tr": "Gaziantep'i ziyaret etmek",
+                "status": "geplant",
+                "emoji": "🕌"
+            },
+            {
+                "id": 3,
+                "plan_de": "Azoren Urlaub",
+                "plan_tr": "Azorlar tatili",
+                "status": "traum",
+                "emoji": "🌋"
+            },
+            {
+                "id": 4,
+                "plan_de": "Malediven Urlaub",
+                "plan_tr": "Maldivler tatili",
+                "status": "traum",
+                "emoji": "🏝️"
+            }
+        ],
+        "sweetest_messages": [
+            {
+                "id": 1,
+                "text_de": "Seni seviyorum 💕",
+                "text_tr": "Seni seviyorum 💕",
+                "sender": "Jonas",
+                "date": "März 2026",
+                "emoji": "💕"
+            }
+        ]
+    }
+}
