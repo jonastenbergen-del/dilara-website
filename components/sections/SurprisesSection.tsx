@@ -753,8 +753,8 @@ function SurpriseModal({
 
                             <div className="flex justify-center gap-4 text-3xl">
                                 <motion.span animate={{ scale: [1, 1.2, 1] }} transition={{ duration: 1.5, repeat: Infinity }}>💕</motion.span>
-                                <motion.span animate={{ scale: [1, 1.2, 1], delay: 0.3 }} transition={{ duration: 1.5, repeat: Infinity }}>💖</motion.span>
-                                <motion.span animate={{ scale: [1, 1.2, 1], delay: 0.6 }} transition={{ duration: 1.5, repeat: Infinity }}>💗</motion.span>
+                                <motion.span animate={{ scale: [1, 1.2, 1] }} transition={{ duration: 1.5, repeat: Infinity, delay: 0.3 }}>💖</motion.span>
+                                <motion.span animate={{ scale: [1, 1.2, 1] }} transition={{ duration: 1.5, repeat: Infinity, delay: 0.6 }}>💗</motion.span>
                             </div>
                         </div>
 
