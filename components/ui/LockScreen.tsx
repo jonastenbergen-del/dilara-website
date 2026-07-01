@@ -43,16 +43,16 @@ export default function LockScreen({ onUnlocked }: { onUnlocked: () => void }) {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
         >
-            {/* Floating Hearts Background */}
+            {/* Floating Hearts Background - fewer on mobile */}
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                {Array.from({ length: 20 }).map((_, i) => (
+                {Array.from({ length: 15 }).map((_, i) => (
                     <motion.div
                         key={i}
-                        className="absolute text-white/20 text-4xl"
+                        className="absolute text-white/20 text-2xl sm:text-4xl"
                         suppressHydrationWarning
                         initial={{
-                            x: 100 + i * 60,
-                            y: 950,
+                            x: 50 + (i * 50),
+                            y: 700,
                             rotate: 0,
                         }}
                         animate={{
@@ -71,7 +71,7 @@ export default function LockScreen({ onUnlocked }: { onUnlocked: () => void }) {
                 ))}
             </div>
 
-            <div className="text-center relative z-10 px-4">
+            <div className="text-center relative z-10 px-4 sm:px-6 w-full max-w-md mx-auto">
                 <AnimatePresence mode="wait">
                     {step === 'lock' ? (
                         <motion.div
@@ -84,7 +84,7 @@ export default function LockScreen({ onUnlocked }: { onUnlocked: () => void }) {
                             onClick={() => setStep('code')}
                         >
                             <motion.div
-                                className="text-9xl mb-6 inline-block"
+                                className="text-7xl sm:text-9xl mb-4 sm:mb-6 inline-block"
                                 animate={{
                                     scale: [1, 1.1, 1],
                                     rotate: [0, 5, -5, 0],
@@ -94,14 +94,14 @@ export default function LockScreen({ onUnlocked }: { onUnlocked: () => void }) {
                                 🔒
                             </motion.div>
                             <motion.p
-                                className="text-white text-xl font-display mb-2"
+                                className="text-white text-lg sm:text-xl font-display mb-2 px-4"
                                 animate={{ opacity: [0.6, 1, 0.6] }}
                                 transition={{ duration: 2, repeat: Infinity }}
                             >
                                 {language === 'tr' ? 'Açmak için tıkla' : 'Klicken zum Öffnen'}
                             </motion.p>
                             <motion.div
-                                className="text-4xl mt-4"
+                                className="text-3xl sm:text-4xl mt-3 sm:mt-4"
                                 animate={{ scale: [1, 1.3, 1] }}
                                 transition={{ duration: 1.5, repeat: Infinity }}
                             >
@@ -118,7 +118,7 @@ export default function LockScreen({ onUnlocked }: { onUnlocked: () => void }) {
                             transition={{ type: 'spring', stiffness: 200 }}
                         >
                             <motion.div
-                                className="text-7xl mb-6"
+                                className="text-6xl sm:text-7xl mb-4 sm:mb-6 mx-auto"
                                 animate={{
                                     scale: [1, 1.1, 1],
                                 }}
@@ -127,18 +127,18 @@ export default function LockScreen({ onUnlocked }: { onUnlocked: () => void }) {
                                 🔓
                             </motion.div>
 
-                            <h2 className="text-white text-2xl font-bold font-display mb-2">
+                            <h2 className="text-white text-xl sm:text-2xl font-bold font-display mb-2 px-2">
                                 {language === 'tr' ? 'Şifre Girin' : 'Passwort Eingeben'}
                             </h2>
-                            <p className="text-white/70 mb-8">
+                            <p className="text-white/70 mb-4 sm:mb-6 text-sm sm:text-base px-2">
                                 {language === 'tr' ? '3 haneli şifre' : '3-stelliges Passwort'}
                             </p>
 
-                            <div className="flex justify-center gap-3 mb-6">
+                            <div className="flex justify-center gap-2 sm:gap-3 mb-4 sm:mb-6 px-4">
                                 {[...Array(3)].map((_, i) => (
                                     <motion.div
                                         key={i}
-                                        className={`w-12 h-12 rounded-xl border-2 text-2xl font-bold flex items-center justify-center transition-all ${code[i]
+                                        className={`w-11 h-11 sm:w-12 sm:h-12 rounded-xl border-2 text-xl sm:text-2xl font-bold flex items-center justify-center transition-all ${code[i]
                                             ? 'bg-white border-white text-primary-600'
                                             : 'bg-white/20 border-white/50 text-white'
                                             } ${error ? 'border-red-400 bg-red-400/20' : ''}`}
@@ -150,11 +150,11 @@ export default function LockScreen({ onUnlocked }: { onUnlocked: () => void }) {
                                 ))}
                             </div>
 
-                            <div className="flex justify-center gap-2 mb-6">
+                            <div className="grid grid-cols-3 gap-2 sm:gap-3 mb-4 sm:mb-6 max-w-[280px] sm:max-w-none mx-auto px-4">
                                 {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((num) => (
                                     <motion.button
                                         key={num}
-                                        className="w-14 h-14 rounded-full bg-white/20 text-white text-xl font-bold flex items-center justify-center hover:bg-white/30 transition-colors"
+                                        className="w-[70px] sm:w-14 h-[70px] sm:h-14 rounded-full bg-white/20 text-white text-lg sm:text-xl font-bold flex items-center justify-center hover:bg-white/30 transition-colors mx-auto"
                                         whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.9 }}
                                         onClick={() => handleCodeChange(num.toString())}
@@ -162,9 +162,9 @@ export default function LockScreen({ onUnlocked }: { onUnlocked: () => void }) {
                                         {num}
                                     </motion.button>
                                 ))}
-                                <div className="w-14 h-14" />
+                                <div className="w-[70px] sm:w-14 h-[70px] sm:h-14 mx-auto" />
                                 <motion.button
-                                    className="w-14 h-14 rounded-full bg-white/20 text-white text-xl font-bold flex items-center justify-center hover:bg-white/30 transition-colors"
+                                    className="w-[70px] sm:w-14 h-[70px] sm:h-14 rounded-full bg-white/20 text-white text-lg sm:text-xl font-bold flex items-center justify-center hover:bg-white/30 transition-colors mx-auto"
                                     whileHover={{ scale: 1.1 }}
                                     whileTap={{ scale: 0.9 }}
                                     onClick={() => handleCodeChange('0')}
@@ -172,7 +172,7 @@ export default function LockScreen({ onUnlocked }: { onUnlocked: () => void }) {
                                     0
                                 </motion.button>
                                 <motion.button
-                                    className="w-14 h-14 rounded-full bg-red-400/50 text-white text-lg font-bold flex items-center justify-center hover:bg-red-400/70 transition-colors"
+                                    className="w-[70px] sm:w-14 h-[70px] sm:h-14 rounded-full bg-red-400/50 text-white text-base sm:text-lg font-bold flex items-center justify-center hover:bg-red-400/70 transition-colors mx-auto"
                                     whileHover={{ scale: 1.1 }}
                                     whileTap={{ scale: 0.9 }}
                                     onClick={() => {
@@ -186,7 +186,7 @@ export default function LockScreen({ onUnlocked }: { onUnlocked: () => void }) {
                             </div>
 
                             <motion.button
-                                className="text-white/60 hover:text-white text-sm underline"
+                                className="text-white/60 hover:text-white text-xs sm:text-sm underline px-4"
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 onClick={() => {
